@@ -28,8 +28,12 @@ chxm1023.data.show_complete_info = true;
 chxm1023.data.use_mem_pool_config = "{\"1\": [true, true], \"2\": [true, true], \"99\": [true, true], \"4\": [true, true], \"5\": [true, true]}";
 chxm1023.data.user_info = { ...chxm1023.data.user_info,  "is_vip": 1,  "state": 1,  "role_id": 1,  "type": 1 };
 chxm1023.data.watermark = 0;
-chxm1023.data.total_count_str = "3";
+chxm1023.data.total_count = 99;
+chxm1023.data.total_count_str = "99";
 chxm1023.data.show_product_orders = true;
 chxm1023.data.show_year_end_summary = true;
+chxm1023.data.left_count = 99;
+chxm1023.data.left_count_str = "99";
+
 
 $done({body : JSON.stringify(chxm1023)});
