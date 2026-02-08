@@ -7,15 +7,17 @@
 #!openUrl=https://apps.apple.com/app/id6447539504
 
 [Script]
-# > 像素蛋糕-解锁Premium
+# > 像素蛋糕-解锁Premium1
 PixCake = type=http-response, pattern=^https?:\/\/api\.pixcakeai\.com\/v1\/api\/app\/user\/info, script-path=https://raw.githubusercontent.com/sanshui-a/Rules/main/JS/PixCake/JS/PixCake.js, requires-body=true, max-size=-1, timeout=60
 
 # > 像素蛋糕-解锁Premium2
 PixCake = type=http-response, pattern=^https?:\/\/api\.pixcakeai\.com\/v1\/api\/app\/user\/im\/info, script-path=https://raw.githubusercontent.com/sanshui-a/Rules/main/JS/PixCake/JS/PixCake.js, requires-body=true, max-size=-1, timeout=60
 
-# > 像素蛋糕-解锁Premium2
+# > 像素蛋糕-解锁Premium3
 PixCake = type=http-response, pattern=^https?:\/\/api\.pixcakeai\.com\/v1\/ow\/user\/info, script-path=https://raw.githubusercontent.com/sanshui-a/Rules/main/JS/PixCake/JS/PixCake.js, requires-body=true, max-size=-1, timeout=60
 
+# > 像素蛋糕-解锁Premium4
+PixCake = type=http-response, pattern=^https?:\/\/api\.pixcakeai\.com\/v7\/api\/app\/project_list, script-path=https://raw.githubusercontent.com/sanshui-a/Rules/main/JS/PixCake/JS/PixCake2.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
 hostname = %APPEND% api.pixcakeai.com
